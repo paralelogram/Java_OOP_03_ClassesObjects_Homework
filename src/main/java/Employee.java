@@ -12,10 +12,6 @@ public class Employee {
         return totalHours;
     }
 
-    {
-        totalHours += hours;
-    }
-
     public Employee() {}
 
     public Employee(String name, double rate){
