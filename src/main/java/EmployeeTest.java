@@ -11,9 +11,9 @@
 
             System.out.println(e2.toString());
 
-            System.out.printf( "Salary = %4.2f \n", e2.salary());
-            System.out.printf("Salary with bonuses = %4.2f \n", e2.bonuses());
-            System.out.printf("Salary with bonuses = %4.2f \n", e4.bonuses());
+            System.out.printf( "Salary = %4.8f \n", e2.salary());
+            System.out.printf("Salary with bonuses = %4.8f \n", e2.bonuses());
+            System.out.printf("Salary with bonuses = %4.8f \n", e4.bonuses());
 
             System.out.println("total hours = " + Employee.getTotalHours());
 
