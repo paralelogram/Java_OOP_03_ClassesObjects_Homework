@@ -40,11 +40,11 @@ public class Employee {
 
     public double bonuses() {
         if (hours > 8 && hours <= 12) {
-            return salary() + 0.0025;
+            return salary() + 0.25;
         }
 
         else if (hours > 12) {
-            return salary() + 0.005;
+            return salary() + 0.5;
         }
         else return 0;
     }
