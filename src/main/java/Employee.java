@@ -22,7 +22,9 @@ public class Employee {
     public Employee(String name, double rate, int hours){
         this.name = name;
         this.rate = rate;
+        if (hours >= 0) {
         this.hours = hours;
+        }
         totalHours += hours;
     }
 
